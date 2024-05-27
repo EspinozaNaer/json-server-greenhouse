@@ -25,7 +25,7 @@
         "phase": "Harvest"
       }
     ],
-    "records": [
+    "records":  { "records": [
         {
             "id": "cc2c4c87-c511-243a-a45c-99a02fa112d1",
             "created_by":"Alan Galavis",
@@ -183,5 +183,5 @@
             ]
         }
         }
-    ]
+    ]}
   }
