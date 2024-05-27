@@ -1,121 +1,187 @@
 {
-  "records": [
+    "crops": [
       {
-          "id": 127,
-          "created_by":"Alan Galavis",
-          "crop_day": 1,
-          "created_at": "27/06/2024 12:14",
-          "updated_at": 2,
-          "phase_id": 1,
-          "crop_id" : 1,
-          "payload": [
-              {
-                  "name" : "Hay",
-                  "value" : "128"
-              },
-              {
-                  "name" : "Corn",
-                  "value" : "300"  
-              },
-              {
-                  "name" : "Guano",
-                  "value" : "100"
-              },
-              {
-                  "name" : "Cotton seed cake",
-                  "value" : "400"  
-              },
-              {
-                  "name" : "Soybean meal",
-                  "value" : "356"
-              },
-              {
-                  "name" : "Urea",
-                  "value" : "356"  
-              },
-              {
-                  "name" : "Ammonium sulfate",
-                  "value" : "125"  
-              }
-          ]
+        "id": "cc7c6c19-c416-453a-a93b-99a02fa136d0",
+        "createdDate": "Mon May 27 2024 00:54:51 GMT-0500 (Colombia Standard Time)",
+        "name": "Crop 1",
+        "author": "Alan Galavis",
+        "active": true,
+        "phase": "Formula"
       },
       {
-          "id": 127,
-          "created_by":"Max Soto",
-          "crop_day": 4,
-          "created_at": "27/06/2024 12:14",
-          "updated_at": 2,
-          "phase_id": 1,
-          "crop_id" : 1,
-          "payload": [
-              {
-                  "name" : "Hay",
-                  "value" : "90"
-              },
-              {
-                  "name" : "Corn",
-                  "value" : "180"  
-              },
-              {
-                  "name" : "Guano",
-                  "value" : "20"
-              },
-              {
-                  "name" : "Cotton seed cake",
-                  "value" : "300"  
-              },
-              {
-                  "name" : "Soybean meal",
-                  "value" : "256"
-              },
-              {
-                  "name" : "Urea",
-                  "value" : "156"  
-              },
-              {
-                  "name" : "Ammonium sulfate",
-                  "value" : "125"  
-              }
-          ]
+        "id": "cc7c6c19-c416-453a-a93b-99a02fa136d1",
+        "createdDate": "Mon May 27 2024 00:54:51 GMT-0500 (Colombia Standard Time)",
+        "name": "Crop 2",
+        "author": "Alan Galavis",
+        "active": true,
+        "phase": "Preparation Area"
       },
       {
-          "id": 127,
-          "created_by":"Andres Soto",
-          "crop_day": 9,
-          "created_at": "27/06/2024 12:14",
-          "updated_at": 2,
-          "phase_id": 2,
-          "crop_id" : 2,
-          "payload": [
-              {
-                  "name" : "Hay",
-                  "value" : "90"
-              },
-              {
-                  "name" : "Corn",
-                  "value" : "180"  
-              },
-              {
-                  "name" : "Guano",
-                  "value" : "20"
-              },
-              {
-                  "name" : "Cotton seed cake",
-                  "value" : "300"  
-              },
-              {
-                  "name" : "Soybean meal",
-                  "value" : "256"
-              },
-              {
-                  "name" : "Urea",
-                  "value" : "156"  
-              },
-              {
-                  "name" : "Ammonium sulfate",
-                  "value" : "125"  
-              }
-          ]
+        "id": "cc7c6c19-c416-453a-a93b-99a02fa136d2",
+        "createdDate": "Mon May 6 2024 00:54:51 GMT-0500 (Colombia Standard Time)",
+        "name": "Crop 1",
+        "author": "Alan Galavis",
+        "active": false,
+        "phase": "Harvest"
       }
-  ]
-}
+    ],
+    "records": [
+        {
+            "id": "cc2c4c87-c511-243a-a45c-99a02fa112d1",
+            "created_by":"Alan Galavis",
+            "crop_day": 1,
+            "created_at": "Mon May 27 2024",
+            "updated_at": "Mon May 27 2024",
+            "phase": "Formula",
+            "crop_id" : "cc7c6c19-c416-453a-a93b-99a02fa136d0",
+            "payload": {
+              "data": [
+                {
+                    "name" : "Hay",
+                    "value" : "128"
+                },
+                {
+                    "name" : "Corn",
+                    "value" : "300"  
+                },
+                {
+                    "name" : "Guano",
+                    "value" : "100"
+                },
+                {
+                    "name" : "Cotton seed cake",
+                    "value" : "400"  
+                },
+                {
+                    "name" : "Soybean meal",
+                    "value" : "356"
+                },
+                {
+                    "name" : "Urea",
+                    "value" : "356"  
+                },
+                {
+                    "name" : "Ammonium sulfate",
+                    "value" : "125"  
+                }
+            ]
+        }
+        },
+        {
+            "id": "cc2c4c87-c511-243a-a45c-99a02fa112d2",
+            "created_by":"Max Soto",
+            "crop_day": 2,
+            "created_at": "Mon May 28 2024",
+            "updated_at": "Mon May 28 2024",
+            "phase_id": "Preparation area",
+            "crop_id" : "cc7c6c19-c416-453a-a93b-99a02fa136d0",
+            "payload": {
+                "data": [
+                  {
+                      "name" : "Activities",
+                      "value" : "Limpiamos todo el patio"
+                  },
+                  {
+                      "name" : "Temperature",
+                      "value" :   30
+                  },
+                  {
+                      "name" : "Comment",
+                      "value" : "falta 1kg de urea"
+                  }
+              ]
+          }
+        },
+        {
+            "id": "cc2c4c87-c511-243a-a45c-99a02fa112d3",
+            "created_by":"Max Soto",
+            "crop_day": 3,
+            "created_at": "Mon May 28 2024",
+            "updated_at": "Mon May 28 2024",
+            "phase_id": "Preparation area",
+            "crop_id" : "cc7c6c19-c416-453a-a93b-99a02fa136d1",
+            "payload": {
+                "data": [
+                  {
+                      "name" : "Activities",
+                      "value" : "Limpiamos todo el patio"
+                  },
+                  {
+                      "name" : "Temperature",
+                      "value" :   30
+                  },
+                  {
+                      "name" : "Comment",
+                      "value" : "falta 1kg de urea"
+                  }
+              ]
+          }
+        },
+        {
+            "id": "cc2c4c87-c511-243a-a45c-99a02fa112d4",
+            "created_by":"Andres Soto",
+            "crop_day": 3,
+            "created_at": "Mon May 28 2024",
+            "updated_at": "Mon May 28 2024",
+            "phase_id": "Preparation area",
+            "crop_id" : "cc7c6c19-c416-453a-a93b-99a02fa136d1",
+            "payload": {
+                "data": [
+                  {
+                      "name" : "Activities",
+                      "value" : "Traslado de materiales"
+                  },
+                  {
+                      "name" : "Temperature",
+                      "value" :   30
+                  },
+                  {
+                      "name" : "Comment",
+                      "value" : "falta 1kg de urea"
+                  }
+              ]
+          }
+        },
+        {
+            "id": "cc2c4c87-c511-243a-a45c-99a02fa112d2",
+            "created_by":"Alan Galavis",
+            "crop_day": 21,
+            "created_at": "Mon May 27 2024",
+            "updated_at": "Mon May 27 2024",
+            "phase": "Formula",
+            "crop_id" : "cc7c6c19-c416-453a-a93b-99a02fa136d0",
+            "payload": {
+              "data": [
+                {
+                    "name" : "Hay",
+                    "value" : "128"
+                },
+                {
+                    "name" : "Corn",
+                    "value" : "300"  
+                },
+                {
+                    "name" : "Guano",
+                    "value" : "100"
+                },
+                {
+                    "name" : "Cotton seed cake",
+                    "value" : "400"  
+                },
+                {
+                    "name" : "Soybean meal",
+                    "value" : "356"
+                },
+                {
+                    "name" : "Urea",
+                    "value" : "356"  
+                },
+                {
+                    "name" : "Ammonium sulfate",
+                    "value" : "125"  
+                }
+            ]
+        }
+        }
+    ]
+  }
