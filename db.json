@@ -1,5 +1,5 @@
 {
-    "crops": [
+    "crops": { "crops": [
       {
         "id": "cc7c6c19-c416-453a-a93b-99a02fa136d0",
         "createdDate": "Mon May 27 2024 00:54:51 GMT-0500 (Colombia Standard Time)",
@@ -24,7 +24,7 @@
         "active": false,
         "phase": "Harvest"
       }
-    ],
+    ]},
     "records":  { "records": [
         {
             "id": "cc2c4c87-c511-243a-a45c-99a02fa112d1",
