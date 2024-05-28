@@ -25,6 +25,26 @@
         "phase": "Harvest"
       }
     ]},
+    "profiles": { "profiles": [
+        {
+            "id" : "99c5c19-c426-453a-a93b-99a02fa136d2",
+            "userId": "wsmith",
+            "firstName": "Winston",
+            "lastName": "Smith",
+            "company": "Peru Agro J&V S.A.C",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Winston_Smith.jpg",
+            "role": "Supervising technician" 
+        },
+        {
+            "id" : "22f5p20-c426-453a-a93b-99a02fa136d2",
+            "userId": "gsamsa",
+            "firstName": "Gregorio",
+            "lastName": "Smith",
+            "company": "Peru Agro J&V S.A.C",
+            "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-R9Ca33r0SPLRQedqzg1TWNnBljwWV0AShQ&s",
+            "role": "Administrator"  
+        }
+    ]},
     "records":  { "records": [
         {
             "id": "cc2c4c87-c511-243a-a45c-99a02fa112d1",
