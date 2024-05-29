@@ -93,7 +93,7 @@
             "crop_day": 2,
             "created_at": "Mon May 28 2024",
             "updated_at": "Mon May 28 2024",
-            "phase_id": "Preparation area",
+            "phase": "Preparation area",
             "crop_id" : "cc7c6c19-c416-453a-a93b-99a02fa136d0",
             "payload": {
                 "data": [
@@ -118,7 +118,7 @@
             "crop_day": 3,
             "created_at": "Mon May 28 2024",
             "updated_at": "Mon May 28 2024",
-            "phase_id": "Preparation area",
+            "phase": "Preparation area",
             "crop_id" : "cc7c6c19-c416-453a-a93b-99a02fa136d1",
             "payload": {
                 "data": [
