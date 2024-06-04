@@ -45,6 +45,14 @@
             "role": "Administrator"  
         }
     ]},
+    "companies" : { "companies": [
+        {
+            "id": "22f5p20-c426-453a-a93b-99a02fa136d2",
+            "name": "Campo Alegre",
+            "tin": "123456789",	
+            "logoUrl": "https://plazavea.vteximg.com.br/arquivos/ids/429454-1000-1000/20181533.jpg?v=637382855570500000"
+        }
+    ]},
     "users": { "users": [
           {
             "id": "1",
